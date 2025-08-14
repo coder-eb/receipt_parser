@@ -3,9 +3,9 @@
   <Image name="image" value="$image" zoom="true"/>
 
   <!-- Polygon tool for bounding text regions -->
-  <Polygon name="poly" toName="image" strokeWidth="3" opacity="0.9" fillColor="red" strokeColor="red">
+  <PolygonLabels name="poly" toName="image" strokeWidth="3" opacity="0.9" fillColor="red" strokeColor="red">
     <Label value="TextRegion"/>
-  </Polygon>
+  </PolygonLabels>
 
   <!-- Text transcription input linked to polygon -->
   <TextArea name="transcription" toName="image" editable="true" perRegion="true"
